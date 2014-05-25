@@ -13,5 +13,9 @@ bilmesApp.config(function($routeProvider) {
 
         .when('/contact', {
             templateUrl : 'templates/contact.html'
+        })
+
+        .otherwise({
+            redirectTo: '/'
         });
 });

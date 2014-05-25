@@ -1,0 +1,39 @@
+.logo {
+    display: block;
+    background: url(assets/image/logo.png) no-repeat;
+    background-size: 100%;
+    width: 180px;
+    height: 53px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    ul.nav-bilmes {
+        text-align: center;
+        float: none;
+    }
+
+    ul.nav-bilmes > li {
+        display: inline-block;
+        float: none;
+        vertical-align: middle;
+    }
+
+    ul.nav-bilmes > li + li {
+        /*border-left: 1px dotted #ffffff;*/
+        content: "";
+        display: inline-block;
+        background: transparent url(assets/image/separator.png) no-repeat 0 50%;
+    }
+}

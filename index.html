@@ -20,14 +20,37 @@
 </head>
 <body>
 
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-3">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="logo" href="#" title="Bilmes" role="home"></a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav nav-bilmes">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services-for-business">Services for Business</a></li>
+                        <li><a href="#services-for-individuals">Services for Individuals</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#people">People</a></li>
+                        <li><a href="#comunity">Community</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
 <header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 </header>
 
 <div ng-view></div>
@@ -37,12 +60,15 @@
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+<script src="assets/js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="assets/js/bootstrap.min.js"></script>
 <!--AngularJS Part which provides basic routing-->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>-->
+<script src="assets/js/angular.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>-->
+<script src="assets/js/angular-route.min.js"></script>
 <script src="assets/js/app.js"></script>
 
 </body>
